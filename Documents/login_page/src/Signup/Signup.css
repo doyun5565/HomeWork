@@ -1,0 +1,194 @@
+.signuppage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #EEE;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+}
+
+.signlogo {
+    margin-top: 40px;
+    display: block;
+    margin: auto;
+}
+
+.signBox {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.content {
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 255px;
+    transform: translateY(-150%);
+}
+
+.Title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #69695D;
+}
+
+.Wrap {
+    display: flex;
+    border-radius: flex;
+    padding: 16px;
+    margin-top: 8px;
+    background-color: white;
+    border: 1px solid #e2e0e0;
+}
+
+.Wrap:focus-within {
+    border: 1px solid #EA6B6B;
+}
+
+.inputidpw {
+    width: 100%;
+    height: 17px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.inputidpw::placeholder {
+    color: #dadada;
+}
+
+.selectdep {
+    position: relative;
+    width: 255px;
+    height: 50px;
+    border: 1px solid #e2e0e0;
+    flex-shrink: 0;
+    font-weight: 700;
+    color: #69695D;
+    cursor: pointer;
+    background-color: white;
+    display: block;
+    margin: auto;
+    transform: translateY(-890%);
+}
+
+.selectdep:hover {
+    background-color: #EA6B6B;
+    color: white;
+}
+
+.modal_background {
+    position: absolute;
+    top:0; left: 0; bottom: 0; right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.modal {
+    position: relative;
+    background-color: #EEE;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 314px;
+    height: 220px;
+    transform: translateY(120%);
+}
+
+.modalinputWrap {
+    position: relative;
+    width: 259px;
+    display: flex;
+    border-radius: flex;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #e2e0e0;
+    transform: translate(4%, 120%);
+}
+
+.modalWrap:focus-within {
+    border: 1px solid #EA6B6B;
+}
+
+.inputdep {
+    position: relative;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.modalbar {
+    position: absolute;
+    transform: translateY(-120%);
+}
+
+.search {
+    position: absolute;
+    transform: translate(690%, 65%);
+}
+
+.closeButton {
+    position: absolute;
+    cursor: pointer;
+    transform: translate(1350%, -200%);
+}
+
+.bartext {
+    position: absolute;
+    transform: translate(10%, -370%);
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.28px;
+}
+
+.signupButton {
+    width: 146px;
+    height: 50px;
+    border: none;
+    font-weight: 700;
+    background-color: #EA6B6B;
+    border-radius:10px;
+    color:white;
+    margin-bottom: 16px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    transform: translateY(-550%);
+}
+
+.searchresultbox {
+    display: block;
+    margin: auto;
+    transform: translate(-5%, 35%);
+}
+
+.depname {
+    display: block;
+    margin: auto;
+    transform: translate(-340%, -250%);
+    border: none;
+    background-color: white;
+    font-size: 17px;
+}
+
+.modal_useemail {
+    position: relative;
+    background-color: #EEE;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 252px;
+    height: 155px;
+    transform: translateY(120%);
+}

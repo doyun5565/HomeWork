@@ -1,0 +1,151 @@
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #EEE;
+    display:flex;
+    overflow:hidden;
+    flex-direction:column;
+}
+
+.callogo {
+    margin-top: 40px;
+    display: block;
+    margin: auto;
+}
+
+.loginBox {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.centerContainer {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.contentWrap {
+    transform: translateY(-180%);
+}
+
+.inputTitle {
+    font-size: 12px;
+    font-weight: 700;
+    color: #69695D;
+}
+
+.inputWrap {
+    border-radius: flex;
+    padding: 16px;
+    margin-top: 8px;
+    background-color: white;
+    border: 1px solid #e2e0e0;
+}
+
+.inputWrap:focus-within {
+    border: 1px solid #EA6B6B;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 2vh;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input::placeholder {
+    color: #dadada;
+}
+
+.loginbutton {
+    transform: translateY(-660%);
+}
+
+.bottomButton {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 146px;
+    height: 50px;
+    border: none;
+    font-weight: 700;
+    background-color: #EA6B6B;
+    border-radius:10px;
+    color:white;
+    cursor: pointer;
+}
+
+.signButton {
+    position: relative;
+    background-color: white;
+    border: none;
+    font-size: 12px;
+    font-weight:700;
+    color:#707070;
+    display: block;
+    margin: auto;
+    transform: translateY(-1350%);
+}
+
+.modal_background_login{
+    position: absolute;
+    top:0; left: 0; bottom: 0; right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: -100vh;
+    margin-bottom: -100vh;
+}
+
+.modal_login {
+  position: relative;
+  background-color: #EEE;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  width: 252px;
+  height: 155px;
+  transform: translateY(300%);
+}
+
+.modalfooter {
+    position: absolute;
+    transform: translateY(280%);
+}
+
+.failicon {
+    display: block;
+    margin: auto;
+    transform: translateY(50%);
+}
+
+.failtext {
+    text-align: center;
+    transform: translateY(100%);
+    color: #000;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 20px;
+}
+
+.closemodal {
+    display: block;
+    margin: auto;
+    background-color:#EA6B6B;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    transform: translateY(150%);
+}
+

@@ -1,0 +1,225 @@
+.profileimg {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.home {
+    display: block;
+    margin: auto;
+    transform: translate(-550%, -1350%);
+}
+
+.username {
+    color: #69695D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 14px; /* 70% */
+    letter-spacing: 0.75px;
+}
+
+.userdep {
+    text-align: center;
+    color: #B5B5B5;
+    font-family: Lato;  
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.32px;
+    transform: translate(0%, -150%);
+}
+
+.userid {
+    text-align: center;
+    color: #B5B5B5;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.32px;
+    transform: translate(0%, -310%);
+}
+
+.firstButton {
+    width: 322px;
+    height: 64px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #EA6B6B;
+    border-radius:10px;
+    color:white;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    transform: translateY(-120%);
+}
+
+.secondButton {
+    width: 322px;
+    height: 64px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #EA6B6B;
+    border-radius:10px;
+    color:white;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    transform: translateY(-90%);
+}
+
+.thirdButton {
+    width: 322px;
+    height: 64px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #EA6B6B;
+    border-radius:10px;
+    color:white;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    transform: translateY(-60%);
+}
+
+.mypagel {
+    text-align: center;
+    transform: translateY(-170%);
+}
+
+.mypageline {
+    position: relative;
+    height: 5vh;
+}
+
+.mypagel2 {
+    text-align: center;
+    transform: translateY(-380%);
+}
+
+.mypagel3 {
+    text-align: center;
+    transform: translateY(-160%);
+}
+
+.logoutline {
+    display: block;
+    margin: auto;
+    transform: translate(10800%, -475%);
+}
+
+.logoutButton {
+    position: relative;
+    background-color: #EEE;
+    color: #C4C4C4;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    display: block;
+    margin: auto;
+    transform: translate(100%, 0%);
+    z-index: 0;
+}
+
+.unregisterButton {
+    position: relative;
+    background-color: #EEE;
+    color: #C4C4C4;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    display: block;
+    margin: auto;
+    transform: translate(200%, -100%);
+    z-index: 0;
+}
+
+.addschedulemodal {
+    position: relative;
+    background-color: #EEE;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 366px;
+    height: 466px;
+    transform: translateY(30%);
+}
+
+.addschedulebar {
+    position: absolute;
+    transform: translateY(-193%);
+}
+
+.modalcloseButton {
+    position: absolute;
+    cursor: pointer;
+    transform: translate(1630%, -430%);
+}
+
+.addtext {
+    position: absolute;
+    transform: translate(10%, -440%);
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: -0.46px;
+}
+
+.schedulename {
+    position: relative;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #69695D;
+}
+
+.schedulename::placeholder {
+    color: #D9D9D9;
+}
+
+.addmodalinputWrap {
+    position: relative;
+    width: 90.7%;
+    display: flex;
+    border-radius: flex;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #D9D9D9;
+    transform: translate(0%, 200%);
+}
+
+.scheduleplace {
+    position: relative;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #69695D;
+}
+
+.scheduleplace::placeholder {
+    color: #D9D9D9;
+}
+
+.addmodalinputWrap2 {
+    position: relative;
+    width: 90.7%;
+    display: flex;
+    border-radius: flex;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #D9D9D9;
+    transform: translate(0%, 290%);
+}
+
